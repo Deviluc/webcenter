@@ -1,1 +1,6 @@
 /bin/
+/test-output/
+/db
+/db.p
+/db.t
+/.settings/
