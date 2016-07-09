@@ -7,6 +7,7 @@ import java.net.URL;
 
 import core.job.JobManager;
 import core.lib.Misc;
+import core.plugin.PluginManager;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -87,6 +88,7 @@ public class BaseWindow extends Application {
 	}
 
 	public static void main(String[] args) {
+		PluginManager.getInstance();
 		launch(args);
 	}
 	
